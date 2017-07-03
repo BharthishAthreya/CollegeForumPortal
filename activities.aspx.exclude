@@ -1,0 +1,37 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="activities.aspx.cs" Inherits="activities" %>
+
+<%@ Register src="Header.ascx" tagname="Header" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+        <title>SSIT College Forum - My activity</title>
+        <link href="artifacts/ClgStyleClasses.css" rel="stylesheet" />
+        <style type="text/css">
+            .auto-style1 {
+                height: 100%;
+            }
+            </style>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+        <table class="tblPage" align="center">
+            <tr>
+                <td class="tdPage1" align="left">
+                    <uc1:Header ID="Header1" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td class="tdPage2">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tdPage3">
+
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+    </html>

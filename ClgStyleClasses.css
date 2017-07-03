@@ -1,0 +1,36 @@
+﻿body 
+{
+  
+}
+
+.tblPage{
+    width:800px;
+    height:500px;
+    border-width:thin;
+    border: groove;
+    background-color:white;
+    opacity:0.9;
+}
+.tdPage1{
+    height:75px;
+   
+
+}
+.tdPage2{
+    height:400px;
+    
+}
+.tdPage3{
+    height:25px;
+   
+}
+
+.news
+{
+    vertical-align:top;
+
+}
+#lnkBtnHme a:hover
+    {
+        background-color:red;
+    }
